@@ -1,28 +1,27 @@
-#  Dam Risk Analysis Dashboard using Tableau
+# 🌊 Dam Risk Analysis Dashboard using Tableau
 
 ## Project Overview
 
-This project presents an interactive Tableau dashboard for analyzing dam risk across the United States. It combines geospatial visualization with infrastructure and population data, enabling users to explore dam locations, hazard classifications, and nearby population exposure through interactive maps and filters.
+This project presents an interactive Tableau dashboard for analyzing dam risk across the United States. It combines geospatial visualization with infrastructure and population data to help users explore dam locations, hazard classifications, and nearby population exposure through interactive maps and filters.
 
-The dashboard was designed to support exploratory analysis by allowing users to filter data by geographic region, hazard level, dam type, and individual dam.
+The dashboard enables users to analyze infrastructure risk by geographic region, hazard level, dam type, and individual dam, supporting exploratory analysis and informed decision-making.
 
 ---
 
 ## Business Problem
 
-Dam failures can pose significant risks to communities, infrastructure, and the environment. Understanding these risks requires more than simply mapping dam locations—it also requires analyzing surrounding population exposure and infrastructure characteristics.
+Dam failures can pose significant risks to nearby communities, infrastructure, and the environment. Understanding these risks requires more than simply mapping dam locations—it also requires analyzing surrounding population exposure and infrastructure characteristics.
 
-This project demonstrates how interactive geospatial analytics can help visualize dam-related risk and support better decision-making.
+This project demonstrates how geospatial analytics can be used to visualize dam-related risks and support infrastructure planning through interactive dashboards.
 
 ---
 
-## Objectives
+## Tools Used
 
-- Visualize dam locations across the United States.
-- Identify dams by hazard classification.
-- Analyze nearby population distribution.
-- Explore dam characteristics such as type, purpose, height, and age.
-- Enable interactive filtering for detailed geographic analysis.
+- Tableau Desktop
+- Tableau Public
+- Microsoft Excel (Data Preparation)
+- GitHub
 
 ---
 
@@ -40,14 +39,39 @@ The dashboard uses a publicly available dataset containing information about dam
 
 ---
 
+## Project Workflow
+
+The dashboard was developed through the following workflow:
+
+1. Connected infrastructure and population datasets in Tableau.
+2. Performed geospatial analysis to identify nearby population exposure.
+3. Created calculated fields and parameters for dynamic spatial analysis.
+4. Built multiple interactive map visualizations.
+5. Designed a dashboard with filters, parameter controls, and detailed infrastructure information.
+6. Published the completed dashboard to Tableau Public.
+
+---
+
+## Dashboard Overview
+
+The dashboard contains four primary analytical components:
+
+- **Risk Radius Map** – Displays dam locations based on hazard classification with an adjustable buffer distance.
+- **Population Distribution Map** – Visualizes nearby population density around dam locations.
+- **Interactive Filters** – Allows users to filter by Area, State, County, Hazard Classification, Dam Type, and Dam Name.
+- **Dam Detail Table** – Displays detailed information including dam type, purpose, maximum height, and age.
+
+---
+
 ## Dashboard Features
 
-- Interactive filters for Area, State, County, Hazard Classification, Dam Type, and Dam Name.
-- Risk Radius map displaying dam locations and surrounding risk areas.
-- Population Distribution map highlighting nearby population exposure.
-- Adjustable buffer distance parameter for spatial analysis.
-- Detailed table containing dam information including type, purpose, maximum height, and age.
-- Interactive dashboard with dynamic filtering and drill-down capabilities.
+- Interactive geospatial maps
+- Adjustable buffer distance parameter
+- Dynamic filtering across multiple dimensions
+- Population distribution analysis
+- Hazard classification visualization
+- Detailed infrastructure information
+- Interactive Tableau dashboard
 
 ---
 
@@ -57,36 +81,36 @@ The dashboard uses a publicly available dataset containing information about dam
 
 ![Dashboard Overview](images/dashboard-overview.png)
 
+### Dashboard (Top)
+
+![Dashboard Top](images/dashboard-top.png)
+
+### Dashboard (Bottom)
+
+![Dashboard Bottom](images/dashboard-bottom.png)
 
 ---
 
 ## Key Insights
 
-- Hazard classifications help identify dams with higher potential risk.
-- Population distribution provides context for understanding communities that may be affected.
-- Interactive filters enable detailed analysis across different geographic regions.
-- Combining geospatial mapping with infrastructure data provides a more comprehensive view of dam-related risk.
-
----
-
-## Project Approach
-
-The dashboard was developed using Tableau's geospatial capabilities and interactive visualization features by:
-
-- Integrating dam and population datasets.
-- Performing spatial analysis to identify nearby population areas.
-- Building interactive geospatial maps.
-- Creating calculated fields and parameters for dynamic analysis.
-- Designing an intuitive dashboard that supports exploratory analysis.
+- Geospatial visualization helps identify regions containing higher concentrations of high-hazard dams.
+- Population distribution mapping provides additional context for understanding communities located near dam infrastructure.
+- Interactive filtering enables users to explore infrastructure risk across different geographic regions and hazard classifications.
+- Adjustable buffer distance allows dynamic exploration of surrounding population exposure.
 
 ---
 
 ## Business Value
 
-This dashboard demonstrates how Tableau can transform infrastructure and geospatial data into meaningful visual insights. By combining maps, interactive filtering, and population analysis, the dashboard provides an effective way to explore dam-related risks and support data-driven decision-making.
+This dashboard demonstrates how geospatial analytics can support infrastructure risk assessment by allowing stakeholders to:
+
+- Visualize dam locations geographically.
+- Explore nearby population exposure.
+- Analyze infrastructure characteristics.
+- Investigate regional risk patterns.
+- Perform interactive exploratory analysis using spatial visualization.
 
 ---
-
 ## Live Dashboard
 
 Explore the interactive dashboard on Tableau Public:

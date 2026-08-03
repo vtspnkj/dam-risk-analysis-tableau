@@ -81,14 +81,6 @@ The dashboard contains four primary analytical components:
 
 ![Dashboard Overview](images/dashboard-overview.png)
 
-### Dashboard (Top)
-
-![Dashboard Top](images/dashboard-top.png)
-
-### Dashboard (Bottom)
-
-![Dashboard Bottom](images/dashboard-bottom.png)
-
 ---
 
 ## Key Insights

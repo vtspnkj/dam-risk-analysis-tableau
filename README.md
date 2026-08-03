@@ -57,13 +57,6 @@ The dashboard uses a publicly available dataset containing information about dam
 
 ![Dashboard Overview](images/dashboard-overview.png)
 
-### Dashboard (Top)
-
-![Dashboard Top](images/dashboard-top.png)
-
-### Dashboard (Bottom)
-
-![Dashboard Bottom](images/dashboard-bottom.png)
 
 ---
 
@@ -98,7 +91,7 @@ This dashboard demonstrates how Tableau can transform infrastructure and geospat
 
 Explore the interactive dashboard on Tableau Public:
 
-**https://public.tableau.com/app/profile/pankaj.vats8347/viz/DAMProject_17801103055050/DamRisk**
+**https://public.tableau.com/app/profile/pankaj.vats8347/viz/DamRiskAnalysis_17857835430480/DamRisk**
 
 ---
 
